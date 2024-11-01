@@ -6,5 +6,6 @@
 
 Ответ пункт 1.
 
-![image](https://github.com/user-attachments/assets/2615e8a1-5db2-49fe-b826-1ce90bb67a2b)
+![image](https://github.com/user-attachments/assets/3111dff3-b4b7-4930-95e7-b7b8f323e6a8)
+
 
