@@ -16,6 +16,8 @@
 
 ![image](https://github.com/user-attachments/assets/978e3b5b-804d-4f4f-9e58-8456f316f8db)
 
-Ответ пунтк 5
+Ответ пункт 5
 
 ![image](https://github.com/user-attachments/assets/d3663039-702b-4f44-baf6-1552bbfa1183)
+
+## Задача 3
