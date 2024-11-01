@@ -12,6 +12,6 @@
 
 ![image](https://github.com/user-attachments/assets/1d560b53-6db1-40ef-bd48-c9a115c28094)
 
+Ответ пункт 3
 
-
-
+![image](https://github.com/user-attachments/assets/978e3b5b-804d-4f4f-9e58-8456f316f8db)
