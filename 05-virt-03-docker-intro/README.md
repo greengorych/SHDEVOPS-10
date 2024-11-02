@@ -223,6 +223,12 @@ services:
 
 ![image](https://github.com/user-attachments/assets/fed46cb0-1d88-41ab-8f03-06dad04786ce)
 
+Ответ пунк 7
+
+![image](https://github.com/user-attachments/assets/85da2c02-dbbb-483d-8fa7-73359e497845)
+
+Я не понял предупреждение с "orphan containers". Вы не могли бы пояснить что произошло при выполнении пункта 7? Спасибо. 
+
 ---
 
 ### Правила приема
