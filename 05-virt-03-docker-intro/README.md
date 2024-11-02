@@ -214,6 +214,12 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
 ```
+
+Ответ пункт 3
+
+![image](https://github.com/user-attachments/assets/e1120ca4-1929-4c75-9a1d-339a602d86d9)
+
+
 ---
 
 ### Правила приема
