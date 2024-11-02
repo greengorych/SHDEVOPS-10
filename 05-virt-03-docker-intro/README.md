@@ -46,8 +46,7 @@ https://hub.docker.com/repository/docker/greengorych/custom-nginx/general
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
-![image](https://github.com/user-attachments/assets/f09c6576-b48f-4f7e-9ea5-4dab9f5a65ba)
-
+![image](https://github.com/user-attachments/assets/ce2620bd-b265-45b8-8a10-8f651bf59ff9)
 
 ## Задача 3
 1. Воспользуйтесь docker help или google, чтобы узнать как подключиться к стандартному потоку ввода/вывода/ошибок контейнера "custom-nginx-t2".
