@@ -197,6 +197,23 @@ services:
 
 Т.е. в случае присутствия в каталоге фалов compose.yaml и docker-compose.yaml будет использован первый, но будет выведено предупреждение о том, что существует файл docker-compose.yaml и предложено удалить его чтобы избежать путаницы.
 
+Ответ пункт 2
+
+Листинг compose.yaml
+
+```
+version: "3"
+include:
+    - docker-compose.yaml
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    ports:
+      - 8000:8000
+      - 9000:9443
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+```
 ---
 
 ### Правила приема
