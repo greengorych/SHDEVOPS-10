@@ -100,8 +100,13 @@ https://hub.docker.com/repository/docker/greengorych/custom-nginx/general
 
 ![image](https://github.com/user-attachments/assets/d8c613ad-12d7-431d-8693-beec45ae5ce6)
 
-![image](https://github.com/user-attachments/assets/92800474-c7bb-4ac5-ab5b-da24414a6876)
+Ответ пункт 7
 
+![image](https://github.com/user-attachments/assets/ba17b3be-011d-43f4-b677-1504ae0d7b22)
+
+Ответ пункт 8
+
+![image](https://github.com/user-attachments/assets/19553276-8ab8-4eac-bcd9-7ab3832a8311)
 
 
 ## Задача 4
