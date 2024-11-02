@@ -104,9 +104,9 @@ https://hub.docker.com/repository/docker/greengorych/custom-nginx/general
 
 ![image](https://github.com/user-attachments/assets/ba17b3be-011d-43f4-b677-1504ae0d7b22)
 
-Ответ пункт 8
-
 ![image](https://github.com/user-attachments/assets/19553276-8ab8-4eac-bcd9-7ab3832a8311)
+
+Ответ пункт 8
 
 ![image](https://github.com/user-attachments/assets/d02b4b16-3969-4013-8132-e0c055de4e5f)
 
