@@ -128,9 +128,15 @@ https://hub.docker.com/repository/docker/greengorych/custom-nginx/general
 - Добавьте ещё один файл в текущий каталог ```$(pwd)``` на хостовой машине.
 - Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
 
-
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
+![image](https://github.com/user-attachments/assets/ec770758-e0d8-499e-9e8e-9dc9d5af3bec)
+
+![image](https://github.com/user-attachments/assets/59532565-1056-4ad2-8838-fe0f2cf62ab9)
+
+![image](https://github.com/user-attachments/assets/5f758493-140e-423c-8cf0-1b2987dd49f4)
+
+![image](https://github.com/user-attachments/assets/8428e54b-700f-42e4-8e68-2c5fae38488f)
 
 ## Задача 5
 
