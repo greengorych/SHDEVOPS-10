@@ -92,6 +92,11 @@ https://hub.docker.com/repository/docker/greengorych/custom-nginx/general
 
 ![image](https://github.com/user-attachments/assets/0b427908-9ed2-42bb-b74b-a3f404e33c0b)
 
+Ответ пункт 5
+
+![image](https://github.com/user-attachments/assets/088bc049-b38b-40aa-95d7-7cec4674e068)
+
+
 ## Задача 4
 - Запустите первый контейнер из образа ***centos*** c любым тегом в фоновом режиме, подключив папку  текущий рабочий каталог ```$(pwd)``` на хостовой машине в ```/data``` контейнера, используя ключ -v.
 - Запустите второй контейнер из образа ***debian*** в фоновом режиме, подключив текущий рабочий каталог ```$(pwd)``` в ```/data``` контейнера. 
