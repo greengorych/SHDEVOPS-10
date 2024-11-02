@@ -219,6 +219,9 @@ services:
 
 ![image](https://github.com/user-attachments/assets/e1120ca4-1929-4c75-9a1d-339a602d86d9)
 
+Ответ пункты 4-6
+
+![image](https://github.com/user-attachments/assets/fed46cb0-1d88-41ab-8f03-06dad04786ce)
 
 ---
 
