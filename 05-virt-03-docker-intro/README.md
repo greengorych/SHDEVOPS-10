@@ -96,6 +96,13 @@ https://hub.docker.com/repository/docker/greengorych/custom-nginx/general
 
 ![image](https://github.com/user-attachments/assets/088bc049-b38b-40aa-95d7-7cec4674e068)
 
+Ответ пункт 6
+
+![image](https://github.com/user-attachments/assets/d8c613ad-12d7-431d-8693-beec45ae5ce6)
+
+![image](https://github.com/user-attachments/assets/92800474-c7bb-4ac5-ab5b-da24414a6876)
+
+
 
 ## Задача 4
 - Запустите первый контейнер из образа ***centos*** c любым тегом в фоновом режиме, подключив папку  текущий рабочий каталог ```$(pwd)``` на хостовой машине в ```/data``` контейнера, используя ключ -v.
