@@ -225,8 +225,7 @@ services:
 
 Ответ пункт 7
 
-![image](https://github.com/user-attachments/assets/c7022cb6-4797-45b5-afd1-2f91da43211c)
-
+![image](https://github.com/user-attachments/assets/1c736c12-ee73-4dfa-9cb6-6c31da93d908)
 
 Я не совсем понял предупреждение с "orphan containers", поэтому не стал описывать ситуацию. Вы не могли бы пояснить что произошло при выполнении пункта 7 для четкого понимания? Спасибо. 
 
