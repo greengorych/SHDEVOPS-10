@@ -26,6 +26,8 @@ See 'snap info docker' for additional versions.
 2. Убедитесь что у вас УСТАНОВЛЕН ```docker compose```(без тире) версии не менее v2.24.X, для это выполните команду ```docker compose version```  
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
+![image](https://github.com/user-attachments/assets/4d56c9a1-ed49-4cb8-baa5-e6bb772fde36)
+
 ---
 
 ## Задача 1
