@@ -97,6 +97,10 @@ See 'snap info docker' for additional versions.
 Добейтесь аналогичного результата, используя docker cp.  
 Предоставьте скриншоты  действий.
 
+![image](https://github.com/user-attachments/assets/f36a3303-21c1-4b2b-ada8-f5d59e98dcbd)
+
+![image](https://github.com/user-attachments/assets/c8f0592a-7482-434a-b44a-f253d27f4d46)
+
 ## Задача 6.2 (**)
 Предложите способ извлечь файл из контейнера, используя только команду docker build и любой Dockerfile.  
 Предоставьте скриншоты  действий.
