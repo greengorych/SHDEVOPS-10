@@ -105,6 +105,12 @@ See 'snap info docker' for additional versions.
 Предложите способ извлечь файл из контейнера, используя только команду docker build и любой Dockerfile.  
 Предоставьте скриншоты  действий.
 
+![image](https://github.com/user-attachments/assets/e68cd0dd-ded7-4897-9740-bc78bbe3d719)
+
+![image](https://github.com/user-attachments/assets/c8829654-3158-4b2b-ba7a-370a01efa061)
+
+![image](https://github.com/user-attachments/assets/2973bfe3-e343-47c8-93e1-3bd2c8587983)
+
 ## Задача 7 (***)
 Запустите ваше python-приложение с помощью runC, не используя docker или containerd.  
 Предоставьте скриншоты  действий.
