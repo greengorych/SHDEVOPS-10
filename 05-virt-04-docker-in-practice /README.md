@@ -91,6 +91,8 @@ See 'snap info docker' for additional versions.
 
 ![image](https://github.com/user-attachments/assets/ca958b4a-04a0-4645-92a4-29cbe1864df4)
 
+![image](https://github.com/user-attachments/assets/5059e338-48ef-435d-ba78-a2d4ed8561a3)
+
 ## Задача 6.1
 Добейтесь аналогичного результата, используя docker cp.  
 Предоставьте скриншоты  действий.
