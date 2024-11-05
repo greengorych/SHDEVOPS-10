@@ -49,7 +49,7 @@ See 'snap info docker' for additional versions.
 4. Просканируйте образ на уязвимости.
 5. В качестве ответа приложите отчет сканирования.
 
-[Отчет о сканировании](https://github.com/greengorych/SHDEVOPS-10/edit/main/05-virt-04-docker-in-practice%20/vulnerabilities.csv)
+[Отчет о сканировании](https://github.com/greengorych/SHDEVOPS-10/main/05-virt-04-docker-in-practice%20/vulnerabilities.csv)
 
 ## Задача 3
 1. Изучите файл "proxy.yaml"
