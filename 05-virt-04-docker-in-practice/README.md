@@ -79,6 +79,10 @@ See 'snap info docker' for additional versions.
 
 ![image](https://github.com/user-attachments/assets/a5b35f95-20a4-4289-bf4c-6d5c07656d96)
 
+[Ссылка на fork](https://github.com/greengorych/SHDEVOPS-10/tree/main/05-virt-04-docker-in-practice/shvirtd-example-python)
+
+[Скрипт]()
+
 ## Задача 5 (*)
 1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."
 2. Протестируйте ручной запуск
