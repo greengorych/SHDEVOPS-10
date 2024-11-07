@@ -1,0 +1,10 @@
+.dockerignore
+.gitignore
+compose.yaml
+Dockerfile.python
+LICENSE
+README.md
+proxy.yaml
+schema.pdf
+haproxy/
+nginx/
