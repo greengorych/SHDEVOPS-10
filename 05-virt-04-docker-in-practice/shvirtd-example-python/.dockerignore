@@ -1,5 +1,6 @@
 .dockerignore
 .gitignore
+.env_example
 compose.yaml
 Dockerfile.python
 LICENSE
