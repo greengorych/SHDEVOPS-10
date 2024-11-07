@@ -2,6 +2,7 @@
 .gitignore
 .env_example
 compose.yaml
+deploy.sh
 Dockerfile.python
 LICENSE
 README.md
