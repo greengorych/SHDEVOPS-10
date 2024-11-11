@@ -9,8 +9,6 @@ terraform {
 }
 provider "docker" {}
 
-#однострочный комментарий
-
 resource "random_password" "random_string" {
   length      = 16
   special     = false
