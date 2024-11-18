@@ -36,16 +36,16 @@ variable "vm_web_inst_pl_id" {
   default     = "standard-v3"
 }
 variable "vm_web_cores" {
-  type    = number
-  default = 2
+  type        = number
+  default     = 2
 }
 variable "vm_web_memory" {
-  type    = number
-  default = 1
+  type        = number
+  default     = 1
 }
 variable "vm_web_fraction" {
-  type    = number
-  default = 20
+  type        = number
+  default     = 20
 }
 
 
