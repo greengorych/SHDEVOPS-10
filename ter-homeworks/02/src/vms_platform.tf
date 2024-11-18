@@ -17,26 +17,26 @@ variable "vm_db_os_family" {
   type        = string
   default     = "ubuntu-2004-lts"
 }
-variable "vm_db_inst_name" {
-  type        = string
-  default     = "netology-develop-platform-db"
-}
+#variable "vm_db_inst_name" {
+#  type        = string
+#  default     = "netology-develop-platform-db"
+#}
 variable "vm_db_inst_pl_id" {
   type        = string
   default     = "standard-v3"
 }
-variable "vm_db_cores" {
-  type        = number
-  default     = 2
-}
-variable "vm_db_memory" {
-  type        = number
-  default     = 2
-}
-variable "vm_db_fraction" {
-  type        = number
-  default     = 20
-}
+#variable "vm_db_cores" {
+#  type        = number
+#  default     = 2
+#}
+#variable "vm_db_memory" {
+#  type        = number
+#  default     = 2
+#}
+#variable "vm_db_fraction" {
+#  type        = number
+#  default     = 20
+#}
 variable "vm_db_loc_platform" {
   type        = string
   default     = "netology"

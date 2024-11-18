@@ -25,26 +25,26 @@ variable "vm_web_os_family" {
   type        = string
   default     = "ubuntu-2004-lts"
 }
-variable "vm_web_inst_name" {
-  type        = string
-  default     = "netology-develop-platform-web"
-}
+#variable "vm_web_inst_name" {
+#  type        = string
+#  default     = "netology-develop-platform-web"
+#}
 variable "vm_web_inst_pl_id" {
   type        = string
   default     = "standard-v3"
 }
-variable "vm_web_cores" {
-  type        = number
-  default     = 2
-}
-variable "vm_web_memory" {
-  type        = number
-  default     = 1
-}
-variable "vm_web_fraction" {
-  type        = number
-  default     = 20
-}
+#variable "vm_web_cores" {
+#  type        = number
+#  default     = 2
+#}
+#variable "vm_web_memory" {
+#  type        = number
+#  default     = 1
+#}
+#variable "vm_web_fraction" {
+#  type        = number
+#  default     = 20
+#}
 variable "vm_web_loc_platform" {
   type        = string
   default     = "netology"
@@ -58,8 +58,39 @@ variable "vm_web_loc_name" {
   default     = "platform-web"
 }
 
-variable "vms_ssh_root_key" {
-  type        = string
-  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILSOXDGT/6lPKrHTx2ZnVrT48T23DMHMy7YZpyEF6rOa root@greengorych"
-  description = "ssh-keygen -t ed25519"
+variable "vms_resources" {
+  type = map(object({
+    cores         = number
+    memory        = number
+    fraction = number
+  }))
+  default = {
+    web = {
+      cores         = 2
+      memory        = 1
+      fraction = 20
+    }
+    db = {
+      cores         = 2
+      memory        = 2
+      fraction = 20
+    }
+  }
 }
+
+variable "vms_metadata" {
+  type = object({
+    serial-port-enable = number
+    ssh-keys           = string
+  })
+  default = {
+    serial-port-enable = 1
+    ssh-keys           = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILSOXDGT/6lPKrHTx2ZnVrT48T23DMHMy7YZpyEF6rOa root@greengorych"
+  }
+}
+
+#variable "vms_ssh_root_key" {
+#  type        = string
+#  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILSOXDGT/6lPKrHTx2ZnVrT48T23DMHMy7YZpyEF6rOa root@greengorych"
+#  description = "ssh-keygen -t ed25519"
+#}
