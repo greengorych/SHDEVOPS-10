@@ -22,7 +22,7 @@ data "yandex_compute_image" "ubuntu" {
 }
 
 resource "yandex_compute_instance" "platform" {
-  name            = var.vm_web_inst_name
+  name            = local.platform_name
   platform_id     = var.vm_web_inst_pl_id
   zone            = var.default_zone
   resources {
@@ -49,7 +49,7 @@ resource "yandex_compute_instance" "platform" {
 }
 
 resource "yandex_compute_instance" "database" {
-  name            = var.vm_db_inst_name
+  name            = local.database_name
   platform_id     = var.vm_db_inst_pl_id
   zone            = var.vm_db_default_zone
 

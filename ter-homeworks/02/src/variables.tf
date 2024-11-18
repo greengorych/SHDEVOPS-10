@@ -21,11 +21,6 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network & subnet name"
 }
-variable "vpc_name_a" {
-  type        = string
-  default     = "develop_a"
-  description = "VPC network & subnet name"
-}
 variable "vm_web_os_family" {
   type        = string
   default     = "ubuntu-2004-lts"
@@ -49,6 +44,18 @@ variable "vm_web_memory" {
 variable "vm_web_fraction" {
   type        = number
   default     = 20
+}
+variable "vm_web_loc_platform" {
+  type        = string
+  default     = "netology"
+}
+variable "vm_web_loc_branch" {
+  type        = string
+  default     = "develop"
+}
+variable "vm_web_loc_name" {
+  type        = string
+  default     = "platform-web"
 }
 
 variable "vms_ssh_root_key" {

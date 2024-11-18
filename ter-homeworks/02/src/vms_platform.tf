@@ -37,3 +37,15 @@ variable "vm_db_fraction" {
   type        = number
   default     = 20
 }
+variable "vm_db_loc_platform" {
+  type        = string
+  default     = "netology"
+}
+variable "vm_db_loc_branch" {
+  type        = string
+  default     = "develop"
+}
+variable "vm_db_loc_name" {
+  type        = string
+  default     = "platform-db"
+}
