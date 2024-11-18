@@ -1,5 +1,3 @@
-###cloud vars
-
 variable "cloud_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
@@ -21,6 +19,11 @@ variable "default_cidr" {
 variable "vpc_name" {
   type        = string
   default     = "develop"
+  description = "VPC network & subnet name"
+}
+variable "vpc_name_a" {
+  type        = string
+  default     = "develop_a"
   description = "VPC network & subnet name"
 }
 variable "vm_web_os_family" {
@@ -47,9 +50,6 @@ variable "vm_web_fraction" {
   type        = number
   default     = 20
 }
-
-
-###ssh vars
 
 variable "vms_ssh_root_key" {
   type        = string
