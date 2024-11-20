@@ -32,6 +32,9 @@ resource "yandex_compute_instance" "db" {
     security_group_ids = [yandex_vpc_security_group.example.id]
   }
 
-  metadata = var.vms_metadata
+  metadata = {
+    serial-port-enable = var.vms_metadata.serial-port-enable
+    ssh-keys           = "ubuntu:${local.ssh_public_key}"
+  }
 
 }

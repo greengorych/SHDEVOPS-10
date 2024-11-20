@@ -72,6 +72,9 @@ variable "each_vm" {
     }
   ]
 }
+locals {
+  ssh_public_key = file("~/.ssh/id_ed25519.pub")
+}
 variable "vms_metadata" {
   type = object({
     serial-port-enable = number
@@ -79,6 +82,6 @@ variable "vms_metadata" {
   })
   default = {
     serial-port-enable = 1
-    ssh-keys           = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILSOXDGT/6lPKrHTx2ZnVrT48T23DMHMy7YZpyEF6rOa root@greengorych"
+    ssh-keys           = ""
   }
 }
