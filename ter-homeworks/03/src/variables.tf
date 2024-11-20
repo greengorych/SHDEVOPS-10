@@ -47,6 +47,31 @@ variable "vms_resources" {
     }
   }
 }
+variable "each_vm" {
+  type = list(object({
+    vm_name     = string
+    cpu         = number
+    cpu_fr      = number
+    ram         = number
+    disk_volume = number
+  }))
+  default = [
+    {
+      vm_name     = "main"
+      cpu         = 4
+      cpu_fr      = 50
+      ram         = 2
+      disk_volume = 10
+    },
+    {
+      vm_name     = "replica"
+      cpu         = 2
+      cpu_fr      = 20
+      ram         = 1
+      disk_volume = 5
+    }
+  ]
+}
 variable "vms_metadata" {
   type = object({
     serial-port-enable = number

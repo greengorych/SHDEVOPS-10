@@ -1,7 +1,6 @@
 data "yandex_compute_image" "ubuntu" {
   family          = var.os_family
 }
-
 resource "yandex_compute_instance" "web" {
   count           = 2
   name            = "web-${count.index + 1}"
@@ -27,6 +26,6 @@ resource "yandex_compute_instance" "web" {
     security_group_ids = [yandex_vpc_security_group.example.id]
   }
 
-  metadata = var.vms_metadata
+  metadata        = var.vms_metadata
 
 }
