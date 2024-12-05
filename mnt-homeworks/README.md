@@ -21,8 +21,8 @@ some_fact = 12
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
 
-CentOS = el
-Ubuntu = deb
+- CentOS = el
+- Ubuntu = deb
 
 ![image](https://github.com/user-attachments/assets/dbafd9ae-248f-4375-beac-6a565f681523)
 
