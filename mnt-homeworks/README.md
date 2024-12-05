@@ -14,8 +14,10 @@ some_fact = 12
 
 ![image](https://github.com/user-attachments/assets/dd401e0d-825f-4f26-93ad-e72116f11a69)
 
-
 2. Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на `all default fact`.
+
+![image](https://github.com/user-attachments/assets/8854cc1d-fd9a-4562-b774-6073dd4d1452)
+
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
 5. Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились значения: для `deb` — `deb default fact`, для `el` — `el default fact`.
