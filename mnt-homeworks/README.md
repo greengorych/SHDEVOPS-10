@@ -69,6 +69,8 @@ some_fact = 12
 
 11. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь, что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
 
+![image](https://github.com/user-attachments/assets/08d7fc07-4889-4836-b5f0-0d413b5a7688)
+
 ![image](https://github.com/user-attachments/assets/96f8758f-b765-4de8-b786-a24158a74467)
 
 12. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
