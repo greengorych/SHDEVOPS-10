@@ -1,0 +1,7 @@
+FROM ubuntu:latest
+
+RUN apt update && \
+    apt full-upgrade -y && \
+    apt install python3.12 -y
+
+CMD ["/bin/bash"]

@@ -1,0 +1,3 @@
+FROM quay.io/centos/centos:stream10
+
+CMD ["/bin/bash"]
